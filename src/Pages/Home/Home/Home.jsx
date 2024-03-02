@@ -4,7 +4,7 @@ import RightSideBar from "../RightSideBar/RightSideBar";
 
 const Home = () => {
     return (
-        <div className="flex mb-8">
+        <div className="flex mb-8 mt-2">
             <LeftSideBar></LeftSideBar>
             <MiddleBar></MiddleBar>
             <RightSideBar></RightSideBar>
