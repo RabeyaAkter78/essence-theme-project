@@ -1,0 +1,63 @@
+[
+    {
+      "_id": "1",
+      "image": "../src/assets/images/catImg-1.png",
+      "Name": "Food"
+    },
+    {
+      "_id": "2",
+      "image": "../src/assets/images/catImg-2.png",
+      "Name": "Interior"
+    },
+    {
+      "_id": "3",
+      "image": "../src/assets/images/catImg-3.png",
+      "Name": "Art"
+    },
+   
+    {
+      "_id": "4",
+      "image": "../src/assets/images/catImg-4.png",
+      "Name": "Paint"
+    },
+    {
+      "_id": "5",
+      "image": "../src/assets/images/catImg-5.png",
+      "Name": "Colorful"
+    },
+    {
+      "_id": "6",
+      "image": "../src/assets/images/catImg-6.png",
+      "Name": "Architecture"
+    },
+    {
+      "_id": "7",
+      "image": "../src/assets/images/catImg-7.png",
+      "Name": "Minimal"
+    },
+    {
+      "_id": "8",
+      "image": "../src/assets/images/catImg-8.png",
+      "Name": "Technology"
+    },
+    {
+      "_id": "9",
+      "image": "../src/assets/images/catImg-9.png",
+      "Name": "Animal"
+    },
+    {
+      "_id": "10",
+      "image": "../src/assets/images/catImg-10.png",
+      "Name": "Nature"
+    },
+    {
+      "_id": "11",
+      "image": "../src/assets/images/catImg-11.png",
+      "Name": "Texture"
+    },
+    {
+      "_id": "12",
+      "image": "../src/assets/images/catImg-12.png",
+      "Name": "Portrait"
+    }
+  ]
