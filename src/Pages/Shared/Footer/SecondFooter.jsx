@@ -4,8 +4,8 @@ import img3 from "../../../assets/images/s-3.png"
 import img4 from "../../../assets/images/s-4.png"
 const SecondFooter = () => {
     return (
-        <div>
-            <footer className="footer items-center p-4 bg-slate-400 text-black">
+        <div className=" bg-slate-400">
+            <footer className="footer items-center p-4  text-black max-w-screen-xl mx-auto">
                 <aside className="items-center grid-flow-col">
                     <p>All Rights Reserved. © 2024 zcart.com</p>
                 </aside>

@@ -7,8 +7,8 @@ import SecondFooter from "./SecondFooter";
 const FirstFooter = () => {
 
     return (
-        <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+        <div className="bg-base-200">
+            <footer className="footer p-10  text-base-content max-w-screen-xl mx-auto ">
                 <aside>
                     <div className="flex justify-center items-center gp-2">
                         <img src={logo} alt="" />
