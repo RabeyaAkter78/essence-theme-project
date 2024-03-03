@@ -1,0 +1,33 @@
+[
+    {
+      "_id": "1",
+      "image": "../src/assets/images/apple-1.png",
+      "Name": "Bleuets"
+    },
+    {
+      "_id": "2",
+      "image": "../src/assets/images/apple-2.png",
+      "Name": "Aneth"
+    },
+    {
+      "_id": "3",
+      "image": "../src/assets/images/apple-3.png",
+      "Name": "Aubergines"
+    },
+   
+    {
+      "_id": "4",
+      "image": "../src/assets/images/apple-4.png",
+      "Name": "Fraises"
+    },
+    {
+      "_id": "5",
+      "image":"../src/assets/images/apple-5.png",
+      "Name": "Radis"
+    },
+    {
+      "_id": "6",
+      "image": "../src/assets/images/apple-6.png",
+      "Name": "Fèves vertes"
+    }
+  ]

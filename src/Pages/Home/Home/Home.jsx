@@ -2,6 +2,7 @@ import DealOfTheDay from "../../DealOfTheDay/DealOfTheDay";
 import DealOfTheDay2 from "../../DealOfTheDay/DealOfTheDay2";
 import OnSellingProduct from "../../OnSellingProduct/OnSellingProduct";
 import OnSellingProduct2 from "../../OnSellingProduct/OnSellingProduct2";
+import ShopAllCategories from "../../ShopAllCategories/ShopAllCategories";
 import ShopDepartment from "../../ShopDepartment/ShopDepartment";
 import BottomBar from "../BottomBar/BottomBar";
 import LeftSideBar from "../LeftSideBar/LeftSideBar";
@@ -23,6 +24,7 @@ const Home = () => {
             <DealOfTheDay2></DealOfTheDay2>
             <OnSellingProduct></OnSellingProduct>
             <OnSellingProduct2></OnSellingProduct2>
+            <ShopAllCategories></ShopAllCategories>
 
         </div>
     );
