@@ -2,7 +2,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination } from 'swiper/modules';
 import image from "../../../assets/images/Frame-61.jpg"
-
+import banner1 from"../../../assets/images/banner-1.png"
+import banner2 from"../../../assets/images/banner-2.png"
+import banner3 from"../../../assets/images/banner-3.png"
+import banner4 from"../../../assets/images/banner-4.png"
+import banner5 from"../../../assets/images/banner-5.png"
+import banner6 from"../../../assets/images/banner-6.png"
 const MiddleBar = () => {
     return (
         <div className='w-6/12'>
@@ -17,7 +22,7 @@ const MiddleBar = () => {
                <div className='flex gap-6 px-2 bg-white'>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner1} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>
@@ -25,7 +30,7 @@ const MiddleBar = () => {
                 </div>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner2} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>
@@ -33,7 +38,7 @@ const MiddleBar = () => {
                 </div>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner3} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>
@@ -41,7 +46,7 @@ const MiddleBar = () => {
                 </div>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner4} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>
@@ -49,7 +54,7 @@ const MiddleBar = () => {
                 </div>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner5} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>
@@ -57,7 +62,7 @@ const MiddleBar = () => {
                 </div>
                <div >
                     <figure className="">
-                        <img src="../../../assets/images/Frame 26928.jpg" alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
+                        <img src={banner6} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />
                     </figure>
                     <div className=" items-center text-center">
                         <p>Brand Name</p>

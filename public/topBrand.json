@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "1",
+      "image": "../src/assets/images/f-1.png",
+      "Name": "Portrait"
+    },
+    {
+      "_id": "2",
+      "image": "../src/assets/images/f-2.png",
+      "Name": "Space"
+    },
+    {
+      "_id": "3",
+      "image": "../src/assets/images/f-3.png",
+      "Name": "Texture"
+    },
+   
+    {
+      "_id": "4",
+      "image": "../src/assets/images/f-4.png",
+      "Name": "Minimal"
+    },
+    {
+      "_id": "5",
+      "image": "../src/assets/images/f-5.png",
+      "Name": "Food"
+    },
+    {
+      "_id": "6",
+      "image":"../src/assets/images/f-6.png",
+      "Name": "Art"
+    },
+    {
+      "_id": "7",
+      "image": "../src/assets/images/f-7.png",
+      "Name": "Architecture"
+    },
+    {
+      "_id": "8",
+      "image": "../src/assets/images/f-8.png",
+      "Name": "Nature"
+    }
+  ]

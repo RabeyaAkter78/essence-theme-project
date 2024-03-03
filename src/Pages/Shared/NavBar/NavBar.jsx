@@ -1,10 +1,10 @@
-import {  FaGreaterThan, FaLessThan } from "react-icons/fa";
+import { FaGreaterThan, FaLessThan } from "react-icons/fa";
 const NavBar = () => {
     return (
         <div className="flex justify-between navbar bg-base-100">
-           <div className="">
-           <button className="btn btn-square btn-ghost">
-                   <FaLessThan></FaLessThan>
+            <div className="">
+                <button className="btn btn-square btn-ghost">
+                    <FaLessThan></FaLessThan>
                 </button>
             </div>
             <div>

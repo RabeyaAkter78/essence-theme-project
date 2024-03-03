@@ -1,9 +1,13 @@
+import DailyDisCover from "../../DailyDiscover/DailyDisCover";
 import DealOfTheDay from "../../DealOfTheDay/DealOfTheDay";
 import DealOfTheDay2 from "../../DealOfTheDay/DealOfTheDay2";
+import MostViewedItem from "../../MostViewedItem/MostViewedItem";
+import TopBrand from "../../MostViewedItem/TopBrand";
 import OnSellingProduct from "../../OnSellingProduct/OnSellingProduct";
 import OnSellingProduct2 from "../../OnSellingProduct/OnSellingProduct2";
 import ShopAllCategories from "../../ShopAllCategories/ShopAllCategories";
 import ShopDepartment from "../../ShopDepartment/ShopDepartment";
+import WeeklyVendor from "../../WeeklyVendor/WeeklyVendor";
 import BottomBar from "../BottomBar/BottomBar";
 import LeftSideBar from "../LeftSideBar/LeftSideBar";
 import MiddleBar from "../MiddleBar/MiddleBar";
@@ -25,7 +29,10 @@ const Home = () => {
             <OnSellingProduct></OnSellingProduct>
             <OnSellingProduct2></OnSellingProduct2>
             <ShopAllCategories></ShopAllCategories>
-
+            <MostViewedItem></MostViewedItem>
+            <TopBrand></TopBrand>
+            <WeeklyVendor></WeeklyVendor>
+            <DailyDisCover></DailyDisCover>
         </div>
     );
 };

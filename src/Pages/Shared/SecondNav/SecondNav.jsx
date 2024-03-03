@@ -1,9 +1,11 @@
 import { FaSearch, FaShoppingCart, FaUser, } from "react-icons/fa";
+import logo from "../../../assets/images/Akash.png"
 const SecondNav = () => {
     return (
         <div>
             <div className="navbar bg-[#194E8A] h-[50px] flex justify-between ">
-                <div className="text-white">
+                <div className="flex justify-center items-center text-white">
+                    <img src={logo} alt="" />
                     <a className="btn btn-ghost normal-case text-xl md:text-xl">Essence</a>
                 </div>
                 <div className="w-full max-w-[250px] lg:max-w-[500px] ">
