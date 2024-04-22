@@ -1,7 +1,7 @@
 
 const ThirdNav = () => {
     return (
-        <div className=" bg-base-100 text-[#194E8A]">
+        <div className=" bg-base-100 text-[#194E8A] font-semibold">
             <div className="lg:flex justify-center items-center">
                 <ul className="menu menu-horizontal px-1">
                     <li><a>Brands</a></li>

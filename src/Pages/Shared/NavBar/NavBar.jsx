@@ -7,7 +7,7 @@ const NavBar = () => {
                     <FaLessThan></FaLessThan>
                 </button>
             </div>
-            <div>
+            <div className="text-[#194E8A] font-bold">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
             </div>
             <div className="">

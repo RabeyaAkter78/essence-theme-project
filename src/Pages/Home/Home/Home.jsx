@@ -16,11 +16,11 @@ import RightSideBar from "../RightSideBar/RightSideBar";
 const Home = () => {
     return (
         <div>
-            <div className="flex mb-4 mt-2 ">
-                <LeftSideBar></LeftSideBar>
-                <MiddleBar></MiddleBar>
-                <RightSideBar></RightSideBar>
-
+            <div className="flex flex-col md:flex-row mb-60 md:mb-4 mt-2 ">
+                {/* <div className="flex mb-4 mt-2 "> */}
+                <LeftSideBar className="order-2 md:order-1"></LeftSideBar>
+                <MiddleBar className="order-1 md:order-2"></MiddleBar>
+                <RightSideBar className="order-3"></RightSideBar>
             </div>
             <BottomBar></BottomBar>
             <ShopDepartment></ShopDepartment>

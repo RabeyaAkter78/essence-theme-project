@@ -18,10 +18,10 @@ const OnSellingProduct = () => {
                 heading={"On Selling Products"}>
 
             </SectionTitle>
-            <div className=" grid grid-cols-3 gap-4 mb-10  ">
+            <div className=" grid grid-cols-1 md:grid-cols-3 gap-4 mb-10  ">
                 {
                     products.map(product => <div key={product._id}>
-                        <div className="flex card-side ">
+                        <div className="flex flex-col md:flex-row card-side ">
                             <figure><img className="h-52 " src={product.image} alt="image" /></figure>
                             <div className="card-body bg-slate-50">
                                 <h2 className="font-semibold text-xl">Wireless Bluetooth Headset Single</h2>

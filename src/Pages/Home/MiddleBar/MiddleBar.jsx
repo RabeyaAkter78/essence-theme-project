@@ -10,16 +10,16 @@ import banner5 from"../../../assets/images/banner-5.png"
 import banner6 from"../../../assets/images/banner-6.png"
 const MiddleBar = () => {
     return (
-        <div className='w-6/12'>
+        <div className=' w-full md:w-6/12  '>
             <>
                 <Swiper pagination={true} modules={[Pagination]} className="mySwiper ">
                     <SwiperSlide>
-                        <img src={image} alt="" />
+                        <img src={image} className='' alt="" />
                     </SwiperSlide>
                     <SwiperSlide><img src={image} alt="" /></SwiperSlide>
                     <SwiperSlide><img src={image} alt="" /></SwiperSlide>
                 </Swiper>
-               <div className='flex gap-6 px-2 bg-white'>
+               <div className='flex flex-col md:flex-row gap-6 px-2 bg-white'>
                <div >
                     <figure className="">
                         <img src={banner1} alt="Brand Images" className="rounded-full h-[88px] w-[88px] bg-slate-300 mt-2" />

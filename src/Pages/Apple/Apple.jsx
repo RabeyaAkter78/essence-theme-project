@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png"
 const Apple = () => {
     const [apples, setApples] = useState([]);
     useEffect(() => {
-        fetch('apple.json')
+        fetch('http://localhost:5000/appleProducts')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
@@ -20,7 +20,7 @@ const Apple = () => {
                     <h3>Apple</h3>
                 </div>
                 <div>
-                    <p>See More Products</p>
+                    <p className="px-2">See More Products</p>
                 </div>
             </div>
 

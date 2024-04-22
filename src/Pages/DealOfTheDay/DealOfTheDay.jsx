@@ -3,12 +3,25 @@ import image2 from "../../assets/images/DOTD-2.png"
 import { FaShoppingCart, FaStar } from "react-icons/fa";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 const DealOfTheDay = () => {
+    // const [images, setImages] = useState([]);
+    // useEffect(() => {
+    //     fetch('http://localhost:5000/dealOfTheDay')
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             console.log(data)
+    //             setImages(data)
+    //         })
+    // }, [])
+
+
+
+
     return (
         <div className=" max-w-screen-xl mx-auto mb-10">
             <SectionTitle
                 heading={"Deal of The Day"}
             ></SectionTitle>
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
 
                 <div className="card lg:card-side bg-base-100 shadow-xl">
                     <figure><img className="h-full" src={image} alt="Album" /></figure>
@@ -50,7 +63,7 @@ const DealOfTheDay = () => {
                 <div className="card lg:card-side bg-base-100 shadow-xl">
                     <div>
                         <figure><img className="relative h-full" src={image2} alt="Album" /></figure>
-                        <div className="flex gap-10 absolute top-1/2 left-48 transform -translate-x-1/2 -translate-y-1/4 bg-white p-4">
+                        <div className="flex gap-4 md:gap-10 absolute top-1/2 left-48 transform -translate-x-40 -translate-y-52 md:transform md:-translate-x-1/2 md:-translate-y-1/4 bg-white p-4">
                             <div className="text-center">
                                 <h1 className="text-red-500 font-semibold">06</h1>
                                 <p>Days</p>

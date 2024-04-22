@@ -4,7 +4,7 @@ import img from "../../assets/images/star.png"
 const DailyDisCover = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('DailyDiscover.json')
+        fetch('http://localhost:5000/dailyDiscoverProducts')
             .then(res => res.json())
             .then(data => {
                 console.log(data)

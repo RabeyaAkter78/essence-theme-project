@@ -1,8 +1,8 @@
 import { IoIosRibbon } from "react-icons/io";
 const LeftSideBar = () => {
     return (
-        <div className=' w-3/12 px-16'>
-            <div className="w-64  bg-white ">
+        <div className='w-full md:w-3/12 md:px-16'>
+            <div className="w-full md:w-64 bg-white ">
                 <div className="flex justify-center items-center gap-2 pb-4 ">
                     <IoIosRibbon />
                     <h2 className='mb-2 font-bold text-[#194E8A]'>All Categories</h2>

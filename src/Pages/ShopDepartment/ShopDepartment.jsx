@@ -4,7 +4,7 @@ import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 const ShopDepartment = () => {
     const [categories, setCategories] = useState([]);
     useEffect(() => {
-        fetch('shopByCategory.json')
+        fetch('http://localhost:5000/shopByDepartment')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
@@ -19,11 +19,11 @@ const ShopDepartment = () => {
                 heading={"Shop by Department"}>
 
             </SectionTitle>
-            <div className=" grid grid-cols-6 mb-2">
+            <div className=" grid grid-cols-2 md:grid-cols-6 mb-2">
                 {
                     categories.map(category => <div key={category._id}>
                         <div >
-                            <div className="w-48  ">
+                            <div className="w-full md:w-48 ">
                                 <figure className="">
                                     <img src={category.image} alt="category images" className="" />
                                 </figure>
