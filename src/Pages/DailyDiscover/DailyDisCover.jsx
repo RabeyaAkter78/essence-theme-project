@@ -7,7 +7,7 @@ const DailyDisCover = () => {
         fetch('http://localhost:5000/dailyDiscoverProducts')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setProducts(data)
             })
     }, [])
@@ -17,7 +17,7 @@ const DailyDisCover = () => {
             heading={"Daily Discover"}>
 
         </SectionTitle>
-        <div className=" grid grid-cols-6 gap-4 mb-10  ">
+        <div className=" grid grid-cols-1 md:grid-cols-6 gap-4 mb-10  ">
             {
                 products.map(product => <div key={product._id}>
                     <div className=" ">

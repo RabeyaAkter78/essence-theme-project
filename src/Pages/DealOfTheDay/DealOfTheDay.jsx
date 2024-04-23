@@ -1,7 +1,9 @@
 import image from "../../assets/images/DOTD-1.png"
 import image2 from "../../assets/images/DOTD-2.png"
-import { FaShoppingCart, FaStar } from "react-icons/fa";
+import { FaShoppingCart} from "react-icons/fa";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
+import { GoStarFill } from "react-icons/go";
+
 const DealOfTheDay = () => {
     // const [images, setImages] = useState([]);
     // useEffect(() => {
@@ -28,12 +30,12 @@ const DealOfTheDay = () => {
                     <div className="card-body">
                         <h2 className="card-title">Wireless Bluetooth Headset Single Ear Earplugs Ultra...</h2>
                         <div className="flex gap-2 justify-center items-center">
-                            <div className="flex gap-1 fill-orange-500">
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
+                            <div className="flex gap-1 ">
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
                             </div>
                             <p>4.5 (121)</p>
                         </div>
@@ -63,7 +65,7 @@ const DealOfTheDay = () => {
                 <div className="card lg:card-side bg-base-100 shadow-xl">
                     <div>
                         <figure><img className="relative h-full" src={image2} alt="Album" /></figure>
-                        <div className="flex gap-4 md:gap-10 absolute top-1/2 left-48 transform -translate-x-40 -translate-y-52 md:transform md:-translate-x-1/2 md:-translate-y-1/4 bg-white p-4">
+                        <div className="flex gap-4 md:gap-10 absolute top-1/2 left-48 transform -translate-x-40 -translate-y-52 md:transform md:-translate-x-1/2 md:-translate-y-1/2 bg-white p-4">
                             <div className="text-center">
                                 <h1 className="text-red-500 font-semibold">06</h1>
                                 <p>Days</p>
@@ -88,12 +90,13 @@ const DealOfTheDay = () => {
                     <div className="card-body">
                         <h2 className="card-title">Wireless Bluetooth Headset Single Ear Earplugs Ultra...</h2>
                         <div className="flex gap-2 justify-center items-center">
-                            <div className="flex gap-1 fill-orange-500">
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
-                                <FaStar></FaStar>
+                            <div className="flex gap-1">
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                            <GoStarFill className="fill-orange-400" />
+                              
                             </div>
                             <p>4.5 (121)</p>
                         </div>

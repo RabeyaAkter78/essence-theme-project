@@ -7,14 +7,14 @@ const TopBrand = () => {
         fetch('topBrand.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setTopProducts(data)
             })
     }, [])
     return (
-        <div className=" max-w-screen-xl mx-auto mb-10">
+        <div className="max-w-screen-xl mx-auto mb-10">
             <SectionTitle heading={"Top Brand"}></SectionTitle>
-            <div className="grid grid-cols-8">
+            <div className="grid grid-cols-3 md:grid-cols-8">
                 {topProducts.map(topProduct => <div key={topProduct._id}>
                     <figure className="">
                         <img src={topProduct.image} alt="Brand Images" className=" bg-slate-50 my-2" />

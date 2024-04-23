@@ -10,7 +10,7 @@ const WeeklyVendor = () => {
     return (
         <div className="max-w-screen-xl mx-auto  mb-10">
             <SectionTitle heading={"Weekly Top Vendor"}></SectionTitle>
-            <div className="grid grid-cols-5 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
                 <img src={image1} alt="" />
                 <img src={image2} alt="" />
                 <img src={image3} alt="" />

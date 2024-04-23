@@ -5,7 +5,7 @@ import img4 from "../../../assets/images/s-4.png"
 const SecondFooter = () => {
     return (
         <div className=" bg-slate-400">
-            <footer className="footer items-center p-4  text-black max-w-screen-xl mx-auto">
+            <footer className="footer items-center p-4 text-black max-w-screen-xl mx-auto">
                 <aside className="items-center grid-flow-col">
                     <p>All Rights Reserved. © 2024 zcart.com</p>
                 </aside>
@@ -13,7 +13,7 @@ const SecondFooter = () => {
                     <p>
                         We are using safe for
                     </p>
-                    <div className="flex gap-2 ml-5">
+                    <div className="flex flex-col md:flex-row gap-2 ml-5">
                         <img src={img1} alt="" />
                         <img src={img2} alt="" />
                         <img src={img3} alt="" />

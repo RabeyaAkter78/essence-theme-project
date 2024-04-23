@@ -9,7 +9,7 @@ const RightSideBar = () => {
                     <p className="text-5xl font-bold  text-center text-[#194E8A]" >40% <span className="text-sm" >off</span></p>
                     <p className="font-bold " >After 12 hr this offer will be end. <span className="text-[#194E8A]">Get Now</span></p>
                 </div>
-                <figure><img className="" src={img} alt="Image" /></figure>
+                <figure><img className="w-full" src={img} alt="Image" /></figure>
                 <button className="btn btn-block md:btn-wide bg-[#194E8A] hover:bg-[#194E8A]  text-white my-2">Add To Cart</button>
             </div>
         </div>

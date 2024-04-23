@@ -7,7 +7,7 @@ import image6 from "../../assets/images/w-6.png"
 const WeeklyVendors2 = () => {
     return (
         <div>
-            <div className="grid grid-cols-3 mt-20 gap-3">
+            <div className="grid grid-col-1 md:grid-cols-3 mt-20 gap-3">
                 <img className="h-full" src={image1} alt="" />
                 <img className="h-full" src={image2} alt="" />
                 <img className="h-full" src={image3} alt="" />

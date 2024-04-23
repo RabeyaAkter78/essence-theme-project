@@ -8,7 +8,7 @@ const FirstFooter = () => {
 
     return (
         <div className="bg-base-200">
-            <footer className="footer p-10  text-base-content max-w-screen-xl mx-auto ">
+            <footer className="footer p-10 text-base-content max-w-screen-xl mx-auto ">
                 <aside>
                     <div className="flex justify-center items-center gp-2">
                         <img src={logo} alt="" />
@@ -27,8 +27,8 @@ const FirstFooter = () => {
                         </div>
                     </div>
                 </aside>
-                <nav>
-                    <h6 className="footer-title text-bold text-slate-900">Company</h6>
+                <nav >
+                    <h6 className="text-md font-bold text-slate-900 uppercase">COMPANY</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Career</a>
                     <a className="link link-hover">Contact Us</a>
@@ -36,7 +36,7 @@ const FirstFooter = () => {
                     <a className="link link-hover">Order History</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title text-bold text-slate-800">My Account</h6>
+                    <h6 className="text-md font-bold text-slate-900 uppercase">My Account</h6>
                     <a className="link link-hover">Track My Order</a>
                     <a className="link link-hover">View Cart</a>
                     <a className="link link-hover">Sign In</a>
@@ -44,7 +44,7 @@ const FirstFooter = () => {
                     <a className="link link-hover">Wishlist</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title text-bold text-slate-800">Customer Service</h6>
+                    <h6 className="text-md font-bold text-slate-900 uppercase">Customer Service</h6>
                     <a className="link link-hover">Payment Methods</a>
                     <a className="link link-hover">Money Return Policy</a>
                     <a className="link link-hover">Product Return</a>
@@ -52,8 +52,8 @@ const FirstFooter = () => {
                     <a className="link link-hover">Terms & Conditions</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title text-bold text-slate-800">Download app</h6>
-                    <div className="flex gap-2">
+                    <h6 className="text-md font-bold text-slate-900 uppercase">Download app</h6>
+                    <div className="flex flex-col md:flex-row gap-2">
                         <img src={badge1} alt="" />
                         <img src={badge2} alt="" />
                     </div>
