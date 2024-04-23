@@ -6,7 +6,7 @@ const Apple = () => {
         fetch('http://localhost:5000/appleProducts')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setApples(data)
             })
     }, [])
@@ -25,7 +25,7 @@ const Apple = () => {
             </div>
 
             <div>
-                <div className=" grid grid-cols-6 mb-2">
+                <div className="grid grid-col-1 md:grid-cols-6 justify-center items-center mb-2">
                     {
                         apples.map(apple => <div key={apple._id}>
                             <div >

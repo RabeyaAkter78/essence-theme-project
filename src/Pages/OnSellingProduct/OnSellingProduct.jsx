@@ -7,7 +7,7 @@ const OnSellingProduct = () => {
         fetch('onSellingProduct.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setProducts(data)
             })
     }, [])

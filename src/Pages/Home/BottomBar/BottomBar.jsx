@@ -1,7 +1,7 @@
 import icon from "../../../assets/images/icon.jpg"
 const BottomBar = () => {
     return (
-        <div className="flex flex-col md:flex-row gap-6 md:px-14 mt-8">
+        <div className="flex flex-col md:flex-row gap-6 md:px-14 mt-20 md:mt-8">
             <div className=" flex justify-center items-center gap-2 h-[75px] md:w-[500px] mb-4 px-2 ">
                 <div className="flex gap-2 p-2 bg-neutral-50 ">
                     <img src={icon} alt="" className="h-12 w-12"/>

@@ -8,7 +8,7 @@ const MostViewedItem = () => {
         fetch('mostViewed.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setProducts(data)
             })
     }, [])
@@ -19,10 +19,10 @@ const MostViewedItem = () => {
                 heading={"Most Viewed Items"}>
 
             </SectionTitle>
-            <div className=" grid grid-cols-6 gap-4 mb-10  ">
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mb-10">
                 {
                     products.map(product => <div key={product._id}>
-                        <div className="card h-72 w-520 bg-base-100 shadow-xl">
+                        <div className="card h-96 md:h-72 w-520 bg-base-100 shadow-xl">
                             <figure><img className="w-full h-38" src={product.image} alt="image" /></figure>
                             <div className="p-2 bg-slate-50">
                                 <h2 className="font-semibold text-xl">Wireless Bluetooth Headset Single</h2>
